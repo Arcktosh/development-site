@@ -7,7 +7,8 @@ module.exports = withPWA({
 		dest: 'public',
 		register: true,
 		skipWaiting: true,
-		runtimeCaching,
-		disable: process.env.NODE_ENV === 'dev',
+		cacheOnFrontEndNav: true,
+		customWorkerDir: './',
+		disable: process.env.ENV_MODE == 'dev',
 	},
 })

@@ -1,9 +1,6 @@
-import React from 'react'
 import Head from 'next/head'
-
-//It's advised to follow this pre-defined layout
-import Header from '@/components/Header/Header'
-import Footer from '@/components/Footer/Footer'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 // All static files like icons and json should be placed in the public folder
 
