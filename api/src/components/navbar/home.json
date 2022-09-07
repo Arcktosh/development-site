@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_navbar_homes",
+  "info": {
+    "displayName": "Home",
+    "icon": "home",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

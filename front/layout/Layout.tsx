@@ -12,7 +12,7 @@ const Layout = (props: any) => {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="theme-color" content="#000000" />
 				<link rel="manifest" href="/manifest.json" />
-				<title>Create Next App</title>
+				<title>Code with Ben</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main>

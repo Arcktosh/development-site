@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_navbar_dropdowns",
+  "info": {
+    "displayName": "Dropdown",
+    "icon": "chevron-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.link"
+    }
+  }
+}

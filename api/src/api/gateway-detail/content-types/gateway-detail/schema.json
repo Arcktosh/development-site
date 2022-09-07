@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gateway_details",
+  "info": {
+    "singularName": "gateway-detail",
+    "pluralName": "gateway-details",
+    "displayName": "Gateway Detail"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "paymentGateway": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::payment-gateway.payment-gateway"
+    },
+    "key": {
+      "type": "string"
+    },
+    "secret": {
+      "type": "string"
+    }
+  }
+}

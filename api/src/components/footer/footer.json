@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "copyright"
+  },
+  "options": {},
+  "attributes": {
+    "showYear": {
+      "type": "boolean",
+      "default": false
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

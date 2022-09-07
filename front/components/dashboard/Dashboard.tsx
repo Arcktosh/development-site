@@ -172,7 +172,7 @@ const DashboardContent = () => {
 								</Paper>
 							</Grid>
 						</Grid>
-						<Copyright sx={{ pt: 4 }} />
+						<Copyright />
 					</Container>
 				</Box>
 			</Box>

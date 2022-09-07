@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_theme_colors",
+  "info": {
+    "displayName": "Color",
+    "icon": "eye-dropper"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "txtColor": {
+      "type": "string"
+    },
+    "linkColor": {
+      "type": "string"
+    }
+  }
+}
